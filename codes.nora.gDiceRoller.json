@@ -29,6 +29,10 @@
                 "make",
                 "make install PREFIX=/app" 
             ],
+            "post-install": [
+                "rm -rf /app/share/icons/hicolor/64x64",
+                "rm -rf /app/share/icons/hicolor/128x128"
+            ],
             "sources" : [
                 {
                     "type" : "git",

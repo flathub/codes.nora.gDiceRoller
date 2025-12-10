@@ -37,8 +37,8 @@
                     "commit": "57ad7d8cc886c8d9c838e665441e347d71637b1d"
                 },
                 {
-                "type": "patch",
-                "path": "fix-icon-install.patch"
+                    "type": "patch",
+                    "path": "fix-icon-install.patch"
                 }
             ]
         }
